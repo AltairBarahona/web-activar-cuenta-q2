@@ -27,7 +27,7 @@ const Activation = () => {
         //change the url to create http request
         // check the status of the response
         // check the method of http request
-        fetch("http://3.135.222.19:3000/api/login/email-activate", requestOptions)
+        fetch(`http://${process.env.IP_ELASTICA_EC2_AWS}:3000/api/login/email-activate`, requestOptions)
             .then(response => response.text())
             .then(result => {
                 console.log(result)
