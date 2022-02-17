@@ -88,7 +88,7 @@ const Reset = () => {
         <div className="mb-3">
             <label for="exampleInputPassword1" className="form-label">Ingresa tu nueva contraseña</label>
             <input type="password" className="form-control" value={newPassword} onChange={onHandlerResetPassword}/>
-            <div id="" className="form-text">Tu información se cifrada y se guarda de forma segura.</div>
+            <div id="" className="form-text">Tu información se cifra y se guarda de forma segura.</div>
         </div>
         <button type="submit" className="btn btn-primary" onClick={onHandlerClick}>Actualizar contraseña</button>
         
