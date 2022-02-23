@@ -28,7 +28,8 @@ const Activation = () => {
         // check the status of the response
         // check the method of http request
         // fetch(`http://${process.env.IP_ELASTICA_EC2_AWS}:3000/api/login/email-activate`, requestOptions)
-        fetch("http://3.23.34.169:3000/api/login/email-activate", requestOptions)
+        // fetch("http://3.23.34.169:3000/api/login/email-activate", requestOptions)
+        fetch("http://q2appbackend-env.eba-r2bacqyp.us-east-2.elasticbeanstalk.com/api/login/email-activate", requestOptions)
 
             .then(response => response.text())
             .then(result => {

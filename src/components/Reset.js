@@ -32,7 +32,8 @@ const Reset = () => {
         // fetch(`http://${process.env.IP_ELASTICA_EC2_AWS}:3000/api/login/email-activate`, requestOptions)
         //fetch("http://3.23.34.169:3000/api/login/reset-password", requestOptions)
         //fetch("http://localhost:3000/api/login/reset-password", requestOptions)
-        fetch("http://3.23.34.169:3000/api/login/reset-password", requestOptions)
+        //fetch("http://3.23.34.169:3000/api/login/reset-password", requestOptions)
+        fetch("http://q2appbackend-env.eba-r2bacqyp.us-east-2.elasticbeanstalk.com/api/login/reset-password", requestOptions)
 
 
             .then(response => {response.text()
